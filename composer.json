@@ -1,0 +1,24 @@
+{
+	"name": "fuelphp/v1oil",
+	"description": "Fuel PHP Framework - Version 1 PSR-4 Oil Package",
+	"keywords": ["fuel", "fuelphp", "v1", "oil"],
+	"homepage": "https://github.com/fuelphp/v1oil",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fuel PHP Framework Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"codeception/codeception": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fuel\\Oil\\": "classes/"
+		}
+	}
+}
